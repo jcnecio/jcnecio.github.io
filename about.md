@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-I am **James Carl Necio**, a Software Engineer with much more things to learn.
+Hi, I'm James, a Software Engineer by profession.
+You can find stuff here that I actually finished or I think I finished, most personal projects are left in the **STARTED** phase.

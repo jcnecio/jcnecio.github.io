@@ -1,0 +1,6 @@
+@startuml
+ESP32Bot -> ROS_Agent: Subscribes to topic /cmd_vel
+Teleop_App -> Teleop_Server: User sends direction api call
+Teleop_Server --> ROS_Agent: Publishes vector data linear/angular
+ESP32Bot <-- ROS_Agent: Robot moves around or does action
+@enduml
