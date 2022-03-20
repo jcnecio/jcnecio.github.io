@@ -90,7 +90,7 @@ The message publisher api should run at port **5000**, the default of flask
 Lastly I needed an interface, that would interact with the physical world or user, I'm also quite talented in creating apps and by this time I'm already tired and running out of time for this weekend project. So I created the very intuitive and innovative android app for controlling my robot, that looks like this:
 
 ![Teleop App](/assets/20220320/Screenshot_20220321-002035_teleop_android.jpg "Teleop App")
-*Teleop App*
+*Teleop App code [here][ros-controller-app]* 
 
 So basically the diagram between the communication from app controller to the robot is as follows:
 ![Dataflow](/assets/20220320/dfd.png "Dataflow")
@@ -101,4 +101,5 @@ Lastly, here's the demo of the robot being controlled via the app. [video][video
 [esp32-microros]: https://micro.ros.org/blog/2020/08/27/esp32
 [esp32-subscriber]: https://github.com/jcnecio/esp32-microros/tree/master/ros
 [ros-flask-publisher]: https://github.com/jcnecio/esp32-microros/tree/master/teleop_server
+[ros-controller-app]: https://github.com/jcnecio/esp32-microros/tree/master/teleop_android
 [video-demo]: https://youtu.be/_-BVPfUlOzg
