@@ -4,6 +4,7 @@ title:  "My first robotics project"
 date:   2022-03-20 10:19:00 +0800
 tags: robotics esp32 docker flask
 categories: 
+comments_id: 1
 ---
 ### I was once a child
 So, who never dreamt of creating their own robot either ride one or create their own.

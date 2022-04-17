@@ -6,7 +6,7 @@ baseurl: ""
 url: ""
 linkedin_username: jcnecio
 github_username:  jcnecio
-
+issues_repo: jcnecio/jcnecio.github.io
 # Build settings
 markdown: kramdown
 theme: minima

@@ -1,0 +1,69 @@
+.comment-actions {
+    display: flex;
+    justify-content: space-between;
+}
+.comment-actions > .button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.comment-actions > .button:hover {
+    background-color: #262626;
+}
+
+.comment {
+    --sp--2: 0.5rem;
+    --sp-5: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp--2)
+}
+
+.commenter {
+    --avatar-size: var(--sp-5);
+    --meta-spacing: var(--sp--2);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--sp--2);
+    position: relative;
+}
+
+.avatar {
+    align-self: flex-start;
+    position: absolute;
+    width: var(--avatar-size);
+    left: calc(-1*var(--avatar-size) - var(--meta-spacing));
+}
+
+.circle {
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.meta.username {
+    font-size: 21px;
+    font-weight: 900;
+    font-family: Lato, Georgia, serif;
+    color: black;
+    text-decoration: underline;
+}
+
+.meta.date-posted {
+    font-size: clamp(0.83rem, 0.48vw + 0.71rem, 1rem);
+}
+
+.meta.author-badge {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    background-color: hsl(0deg 0% 92%);;
+    color: black;
+    font-family: IBM Plex Mono, Monaco, Consolas, Courier New, monospace;
+    border-radius: 3rem;
+    padding: 0.125rem 0.75rem;
+}
